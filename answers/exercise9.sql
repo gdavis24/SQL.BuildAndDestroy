@@ -1,1 +1,2 @@
-SELECT * FROM Students WHERE City != 'Philidelphia';
+SELECT * FROM Students 
+WHERE NOT City = 'Philidelphia';
